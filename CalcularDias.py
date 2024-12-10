@@ -12,7 +12,7 @@ def calcular_dias_navidad():
         
         
         if fecha_actual > navidad_actual:
-            # Si ya pasó la Navidad de este año, usar la del próximo año
+            # Si ya pasó la Navidad de este año, usar la del próximo año.
             navidad_actual = datetime(año_actual + 1, 12, 25)
         
         
